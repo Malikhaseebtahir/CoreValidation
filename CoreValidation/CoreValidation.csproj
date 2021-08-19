@@ -12,4 +12,17 @@
 		<PackageReference Include="ZXing.Net" Version="0.16.5" />
 	</ItemGroup>
 
+	<PropertyGroup>
+		<PackageId>CoreValidation</PackageId>
+		<Version>1.1.0</Version>
+		<Authors>Malik Haseeb</Authors>
+		<Company>Malik</Company>
+		<PackageDescription>core validation</PackageDescription>
+		<RepositoryUrl>https://github.com/Malikhaseebtahir/CoreValidation</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include=".github\workflows\nuget.yml" />
+	</ItemGroup>
+
 </Project>
