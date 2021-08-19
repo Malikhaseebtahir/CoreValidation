@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CoreEnums" Version="1.1.0" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+		<PackageReference Include="GeoCoordinate.NetStandard1" Version="1.0.1" />
+		<PackageReference Include="ZXing.Net" Version="0.16.5" />
+	</ItemGroup>
+
+</Project>
